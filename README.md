@@ -99,7 +99,7 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 |--------|-------------|-------|
 | [SaaS Customer Retention & Churn – A/B Testing](https://github.com/saanvireddy/saas-churn-ab-analysis) | Email retention A/B test (n=2,000) — chi-square test confirming statistically significant churn reduction (**p<0.05**), 12-cohort retention curves, RFM segmentation, logistic regression churn model (**AUC-ROC: 0.81**) | Python · Scikit-learn · SciPy · Pandas · Matplotlib |
 | [E-Commerce Analytics Dashboard](https://github.com/saanvireddy/ecommerce-analytics-dashboard) | Power BI dashboards analyzing $3.8M+ revenue, 500+ customers, 3,000+ orders — SQL queries for monthly trends, segmentation, and geographic performance | Python · SQL · Power BI · ETL |
-| [Entertainer Data Analytics](https://github.com/saanvireddy/Entertainer-Data-Analytics) | End-to-end analytics: data population across 70 entertainers (films, awards, salary), EDA, trend analysis, interactive multi-page Power BI dashboard | Python · Pandas · Power BI · Jupyter |
+
 
 ---
 
