@@ -126,7 +126,7 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 |------|-------------|--------|
 | Project Assistant | University of South Florida | ETL pipeline standardizing 180+ country name variations → **~90% mismatch reduction**; US Census Bureau ACS API integration for 3+ stakeholder BI dashboards |
 | Data Science Intern | Accenture | 15+ SQL reporting pipelines; 8+ Tableau/Power BI dashboards for C-level; **30% reduction** in manual reporting time |
-| Research Assistant | MRECW | NLP pipeline on 500+ accident reports; 92% accuracy; peer-reviewed publication |
+| Research Assistant | Malla Reddy Engineering College for Women | NLP pipeline on 500+ accident reports; 92% accuracy; peer-reviewed publication |
 
 ---
 
@@ -134,7 +134,7 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 
 **MS Artificial Intelligence & Business Analytics** — University of South Florida *(Aug 2024 – May 2026)* · GPA: **3.95 / 4.0**
 
-**B.Tech Computer Science Engineering – Data Science** — Malla Reddy Engineering College *(Jun 2020 – Apr 2024)* · GPA: **3.7 / 4.0**
+**B.Tech Computer Science Engineering – Data Science** — Malla Reddy Engineering College for Women*(Jun 2020 – Apr 2024)* · GPA: **3.7 / 4.0**
 
 ---
 
@@ -168,5 +168,4 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 
 <p align="center">
   <i>Open to full-time AI Engineer, Data Scientist, Data Engineer, and Data Analyst roles in the USA 🇺🇸</i><br/>
-  <i>Currently on OPT · Seeking H-1B sponsorship</i>
 </p>
