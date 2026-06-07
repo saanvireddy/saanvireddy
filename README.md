@@ -88,7 +88,7 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 | Project | Description | Stack |
 |--------|-------------|-------|
 | [Credit Card Fraud Detection](https://github.com/saanvireddy/credit-card-fraud-detection) | End-to-end ML pipeline on 284K transactions — SMOTE for class imbalance (0.17% fraud rate), recall improved from 0.61 → **0.89**, XGBoost final model (**AUC-ROC: 0.99, F1: 0.89**), SHAP explainability, Streamlit app | XGBoost · SMOTE · SHAP · Scikit-learn · Streamlit |
-| [Construction Safety Analytics – NLP](https://github.com/saanvireddy/Construction-site-accident-analysis) | NLP pipeline on 500+ accident reports — ensemble classifiers achieving **92% accuracy**, insights contributed to **20% reduction** in workplace incidents | Python · NLTK · Scikit-learn · TF-IDF · Ensemble ML |
+| [Construction Safety Analytics – NLP](https://github.com/saanvireddy/Construction-site-accident-analysis) | End-to-end NLP pipeline on **18,617 OSHA accident reports** — SVM classifier (**AUC-ROC: 0.9867, 96% accuracy**), spaCy NER entity extraction, Gemini LLM safety recommendations, Streamlit dashboard + Docker | Python · NLTK · spaCy · Scikit-learn · TF-IDF · Gemini · Docker · Streamlit |
 | [Heart Disease Diagnostic Analysis](https://github.com/saanvireddy/Heart-Disease-Diagnostic-Analysis) | Multi-disease ML classification (diabetes, heart disease, Parkinson's) with full EDA, feature engineering, cross-validation, and Power BI dashboard | Python · Scikit-learn · Jupyter · Power BI |
 
 ---
