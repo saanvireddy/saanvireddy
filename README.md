@@ -79,7 +79,7 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 | Project | Description | Stack |
 |--------|-------------|-------|
 | [AI-Powered SQL Analytics Assistant](https://github.com/saanvireddy/ai-sql-assistant) | NL-to-SQL engine with schema-aware prompting & validation guardrails — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/ai-sql-assistant)** | LangChain · Vertex AI · Python |
-| [RAG Document Q&A API Service](https://github.com/saanvireddy/rag-qa-api) | Production RAG service: PDF/text ingestion, Vertex AI embeddings, pgvector storage, FastAPI endpoints with Pydantic validation, rate limiting & Cloud Logging — **<100ms latency** | LangChain · FastAPI · PostgreSQL (pgvector) · Vertex AI · Pytest |
+| [RAG Document Q&A API Service](https://github.com/saanvireddy/rag-qa-api) | Production RAG service: PDF/text ingestion, Vertex AI embeddings, pgvector storage, FastAPI endpoints with Pydantic validation, rate limiting & Cloud Logging — **<100ms latency** — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/rag-qa-assistant)** | LangChain · FastAPI · PostgreSQL (pgvector) · Vertex AI · Pytest |
 
 ---
 
