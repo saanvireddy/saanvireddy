@@ -24,7 +24,7 @@
 
 ## 🙋‍♀️ About Me
 
-I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), building production-grade AI systems, data pipelines, and ML solutions. My work spans **GenAI/LLM engineering**, **end-to-end ML pipelines**, **ETL & data warehousing**, and **BI analytics** — with hands-on experience across the full data lifecycle from raw ingestion to stakeholder dashboards.
+I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building production-grade AI systems, data pipelines, and ML solutions. My work spans **GenAI/LLM engineering**, **end-to-end ML pipelines**, **ETL & data warehousing**, and **BI analytics** — with hands-on experience across the full data lifecycle from raw ingestion to stakeholder dashboards.
 
 - 🔭 Currently building: production-ready RAG pipelines and NL-to-SQL AI systems  
 - 🌱 Stack: LangChain · Vertex AI · FastAPI · Docker · Spark · Airflow · dbt · BigQuery  
@@ -40,9 +40,11 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
 ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat)
 ![RAG](https://img.shields.io/badge/RAG%20Pipelines-FF6F00?style=flat)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0EA5E9?style=flat)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=flat)
 
 **ML & Data Science**
 
@@ -54,6 +56,8 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 
 **Data Engineering & Cloud**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
@@ -63,6 +67,8 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20API%20Integration-6DB33F?style=flat)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 **BI & Visualization**
 
@@ -100,13 +106,13 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 | [SaaS Customer Retention & Churn – A/B Testing](https://github.com/saanvireddy/saas-churn-ab-analysis) | Email retention A/B test (n=2,000) — chi-square test confirming statistically significant churn reduction (**p<0.05**), 12-cohort retention curves, RFM segmentation, logistic regression churn model (**AUC-ROC: 0.81**) | Python · Scikit-learn · SciPy · Pandas · Matplotlib |
 | [E-Commerce Analytics Dashboard](https://github.com/saanvireddy/ecommerce-analytics-dashboard) | Power BI dashboards analyzing $3.8M+ revenue, 500+ customers, 3,000+ orders — SQL queries for monthly trends, segmentation, and geographic performance | Python · SQL · Power BI · ETL |
 
-
 ---
 
 ### ⚙️ Data Engineering
 
 | Project | Description | Stack |
 |--------|-------------|-------|
+| [Project Assistant Data Pipeline](https://github.com/saanvireddy/project-assistant-pipeline) | End-to-end AI-ready data pipeline: RapidFuzz-based country name → ISO code standardization (96% match rate against the full ISO 3166-1 reference list), U.S. Census ACS 5-Year API integration (FIPS-based, ZIP/county/state granularity), reusable schema validation/quality-check/feature-engineering modules, ChromaDB + Groq RAG retrieval layer, and automated CI/CD via GitHub Actions | Python · Pandas · RapidFuzz · ChromaDB · Groq · GitHub Actions · Pytest |
 | [E-Commerce Data Warehouse & ETL Pipeline](https://github.com/saanvireddy/e-commerce-data-warehouse) | Star schema dimensional warehouse, automated ETL (REST API + CSV → PostgreSQL), Great Expectations-style data quality checks, Airflow DAG orchestration, dbt models with full documentation | Python · PySpark · PostgreSQL · Airflow · dbt · Docker |
 | [Real-Time Log Stream Processing – Kafka & Spark](https://github.com/saanvireddy/kafka-spark-streaming) | Real-time pipeline consuming log events from Kafka, Spark Structured Streaming aggregations, windowed anomaly detection, Parquet output — fully containerized | Apache Kafka · Spark Streaming · Docker · Parquet |
 
@@ -124,7 +130,7 @@ I'm a Master's student in AI & Business Analytics at USF (graduating May 2026), 
 
 | Role | Organization | Impact |
 |------|-------------|--------|
-| Project Assistant | University of South Florida | ETL pipeline standardizing 180+ country name variations → **~90% mismatch reduction**; US Census Bureau ACS API integration for 3+ stakeholder BI dashboards |
+| Project Assistant | University of South Florida | Built a full AI-ready data pipeline: RapidFuzz-based ETL standardizing 180+ country name variations (**~90% mismatch reduction**), U.S. Census ACS API integration (FIPS-based, ZIP/county/state granularity), reusable validation/QA/feature-engineering modules, ChromaDB + Groq RAG retrieval layer, and CI/CD automation via GitHub Actions |
 | Data Science Intern | Accenture | 15+ SQL reporting pipelines; 8+ Tableau/Power BI dashboards for C-level; **30% reduction** in manual reporting time |
 | Research Assistant | Malla Reddy Engineering College for Women | NLP pipeline on 500+ accident reports; 92% accuracy; peer-reviewed publication |
 
