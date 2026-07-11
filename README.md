@@ -26,9 +26,9 @@
 
 I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building production-grade AI systems, data pipelines, and ML solutions. My work spans **GenAI/LLM engineering**, **end-to-end ML pipelines**, **ETL & data warehousing**, and **BI analytics** — with hands-on experience across the full data lifecycle from raw ingestion to stakeholder dashboards.
 
-- 🔭 Currently building: production-ready RAG pipelines and NL-to-SQL AI systems  
-- 🌱 Stack: LangChain · Vertex AI · FastAPI · Docker · Spark · Airflow · dbt · BigQuery  
-- 💬 Ask me about: GenAI architecture, NLP, ETL pipelines, SQL analytics, BI dashboards  
+- 🔭 Currently building: fine-tuned LLM serving pipelines (QLoRA + RAG), production-ready RAG pipelines, and NL-to-SQL AI systems  
+- 🌱 Stack: LangChain · Vertex AI · QLoRA/PEFT · Pinecone · FastAPI · Docker · Kubernetes · Terraform · Spark · Airflow · dbt · BigQuery  
+- 💬 Ask me about: GenAI architecture, LLM fine-tuning, NLP, ETL pipelines, SQL analytics, BI dashboards  
 - 📄 Roles I'm targeting: AI Engineer · Data Scientist · Data Engineer · Data Analyst  
 
 ---
@@ -41,10 +41,14 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat)
+![QLoRA/PEFT](https://img.shields.io/badge/QLoRA%2FPEFT-7C3AED?style=flat)
+![Unsloth](https://img.shields.io/badge/Unsloth-00C08B?style=flat)
 ![RAG](https://img.shields.io/badge/RAG%20Pipelines-FF6F00?style=flat)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0EA5E9?style=flat)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=flat)
+![Ragas](https://img.shields.io/badge/Ragas%20Eval-14B8A6?style=flat)
 
 **ML & Data Science**
 
@@ -65,6 +69,8 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20API%20Integration-6DB33F?style=flat)
@@ -84,6 +90,7 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 
 | Project | Description | Stack |
 |--------|-------------|-------|
+| [Multi-Cloud Fine-Tuned LLM Serving Pipeline](https://github.com/saanvireddy/llm-pipeline) | Fine-tuned Mistral-7B with QLoRA (4-bit, LoRA adapters via Unsloth) on a 24K-example support dataset (**training loss 0.79 → 0.63**), combined with a Pinecone-backed RAG layer. Ragas evaluation gate integrated into a GitHub Actions CI/CD pipeline (verified running end-to-end); containerized FastAPI serving app with cloud-agnostic Helm charts and Terraform IaC validated for AWS EKS and Azure AKS | QLoRA/PEFT · Unsloth · Pinecone · Ragas · FastAPI · Docker · Kubernetes · Terraform · GitHub Actions |
 | [AI-Powered SQL Analytics Assistant](https://github.com/saanvireddy/ai-sql-assistant) | NL-to-SQL engine with schema-aware prompting & validation guardrails — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/ai-sql-assistant)** | LangChain · Vertex AI · Python |
 | [RAG Document Q&A API Service](https://github.com/saanvireddy/rag-qa-api) | Production RAG service: PDF/text ingestion, Vertex AI embeddings, pgvector storage, FastAPI endpoints with Pydantic validation, rate limiting & Cloud Logging — **<100ms latency** — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/rag-qa-assistant)** | LangChain · FastAPI · PostgreSQL (pgvector) · Vertex AI · Pytest |
 
