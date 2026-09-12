@@ -26,10 +26,11 @@
 
 I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building production-grade AI systems, data pipelines, and ML solutions. My work spans **GenAI/LLM engineering**, **end-to-end ML pipelines**, **ETL & data warehousing**, and **BI analytics** — with hands-on experience across the full data lifecycle from raw ingestion to stakeholder dashboards.
 
-- 🔭 Currently building: fine-tuned LLM serving pipelines (QLoRA + RAG), production-ready RAG pipelines, and NL-to-SQL AI systems  
-- 🌱 Stack: LangChain · Vertex AI · QLoRA/PEFT · Pinecone · FastAPI · Docker · Kubernetes · Terraform · Spark · Airflow · dbt · BigQuery  
-- 💬 Ask me about: GenAI architecture, LLM fine-tuning, NLP, ETL pipelines, SQL analytics, BI dashboards  
-- 📄 Roles I'm targeting: AI Engineer · Data Scientist · Data Engineer · Data Analyst  
+- 💼 Currently: AI & Data Analyst at Compass Group / University of South Florida, translating AI and data problem statements into technical requirements and evaluation workflows
+- 🔭 Currently building: fine-tuned LLM serving pipelines (QLoRA + RAG), production-ready RAG pipelines, and NL-to-SQL AI systems
+- 🌱 Stack: LangChain · LangGraph · Vertex AI · QLoRA/PEFT · Pinecone · FastAPI · Docker · Kubernetes · Terraform · Spark · Kafka · Databricks · Snowflake · Airflow · dbt · BigQuery
+- 💬 Ask me about: GenAI architecture, LLM fine-tuning, NLP, ETL pipelines, SQL analytics, BI dashboards
+- 📄 Roles I'm targeting: AI Engineer · Data Scientist · Data Engineer · Data Analyst
 
 ---
 
@@ -38,6 +39,7 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 **GenAI & LLMs**
 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
 ![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat)
@@ -66,6 +68,8 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -91,8 +95,8 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 | Project | Description | Stack |
 |--------|-------------|-------|
 | [Multi-Cloud Fine-Tuned LLM Serving Pipeline](https://github.com/saanvireddy/llm-pipeline) | Fine-tuned Mistral-7B with QLoRA (4-bit, LoRA adapters via Unsloth) on a 24K-example support dataset (**training loss 0.79 → 0.63**), combined with a Pinecone-backed RAG layer. Ragas evaluation gate integrated into a GitHub Actions CI/CD pipeline (verified running end-to-end); containerized FastAPI serving app with cloud-agnostic Helm charts and Terraform IaC validated for AWS EKS and Azure AKS | QLoRA/PEFT · Unsloth · Pinecone · Ragas · FastAPI · Docker · Kubernetes · Terraform · GitHub Actions |
-| [AI-Powered SQL Analytics Assistant](https://github.com/saanvireddy/ai-sql-assistant) | NL-to-SQL engine with schema-aware prompting & validation guardrails — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/ai-sql-assistant)** | LangChain · Vertex AI · Python |
-| [RAG Document Q&A API Service](https://github.com/saanvireddy/rag-qa-api) | Production RAG service: PDF/text ingestion, Vertex AI embeddings, pgvector storage, FastAPI endpoints with Pydantic validation, rate limiting & Cloud Logging — **<100ms latency** — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/rag-qa-assistant)** | LangChain · FastAPI · PostgreSQL (pgvector) · Vertex AI · Pytest |
+| [AI-Powered SQL Analytics Assistant](https://github.com/saanvireddy/ai-sql-assistant) | Agentic NL-to-SQL app built on a LangGraph ReAct agent (generate → validate/execute → explain), schema-aware prompting, SQL guardrails, and conversational memory for follow-up questions — **95%+ SQL accuracy** — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/ai-sql-assistant)** | LangGraph · Groq · Streamlit · Python · SQL |
+| [RAG Document Q&A API Service](https://github.com/saanvireddy/rag-qa-api) | Production RAG service: PDF/text ingestion, Vertex AI embeddings, pgvector storage, FastAPI endpoints with Pydantic validation, rate limiting & Cloud Logging — **<100ms latency**, ROUGE-based evaluation — **[🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/rag-qa-assistant)** | LangChain · FastAPI · PostgreSQL (pgvector) · Vertex AI · Pytest |
 
 ---
 
@@ -100,8 +104,8 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [Credit Card Fraud Detection](https://github.com/saanvireddy/credit-card-fraud-detection) | End-to-end ML pipeline on 284K transactions — SMOTE for class imbalance (0.17% fraud rate), recall improved from 0.61 → **0.89**, XGBoost final model (**AUC-ROC: 0.99, F1: 0.89**), SHAP explainability, Streamlit app | XGBoost · SMOTE · SHAP · Scikit-learn · Streamlit |
-| [Construction Safety Analytics – NLP](https://github.com/saanvireddy/Construction-site-accident-analysis) | End-to-end NLP pipeline on **18,617 OSHA accident reports** — SVM classifier (**AUC-ROC: 0.9867, 96% accuracy**), spaCy NER entity extraction, Gemini LLM safety recommendations, Streamlit dashboard + Docker | Python · NLTK · spaCy · Scikit-learn · TF-IDF · Gemini · Docker · Streamlit |
+| [Credit Card Fraud Detection](https://github.com/saanvireddy/credit-card-fraud-detection) | End-to-end ML pipeline on 284,807 transactions — SMOTE for class imbalance (0.17% fraud rate), recall improved from 0.61 → **0.89**, XGBoost final model (**AUC-ROC: 0.99, F1: 0.89**), SHAP explainability, Streamlit scoring app | XGBoost · SMOTE · SHAP · Scikit-learn · Streamlit |
+| [Construction Safety Analytics – NLP](https://github.com/saanvireddy/Construction-site-accident-analysis) | End-to-end NLP pipeline on **18,617 OSHA accident reports** — TF-IDF + spaCy NER, SVM/Random Forest/Gradient Boosting/Logistic Regression compared with SMOTE, best model **AUC-ROC: 0.9867, 96% accuracy**, Gemini-generated OSHA-referenced safety recommendations, Streamlit dashboard + Docker | Python · NLTK · spaCy · Scikit-learn · TF-IDF · Gemini · Docker · Streamlit |
 | [Heart Disease Diagnostic Analysis](https://github.com/saanvireddy/Heart-Disease-Diagnostic-Analysis) | Multi-disease ML classification (diabetes, heart disease, Parkinson's) with full EDA, feature engineering, cross-validation, and Power BI dashboard | Python · Scikit-learn · Jupyter · Power BI |
 
 ---
@@ -110,8 +114,9 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [SaaS Customer Retention & Churn – A/B Testing](https://github.com/saanvireddy/saas-churn-ab-analysis) | Email retention A/B test (n=2,000) — chi-square test confirming statistically significant churn reduction (**p<0.05**), 12-cohort retention curves, RFM segmentation, logistic regression churn model (**AUC-ROC: 0.81**) | Python · Scikit-learn · SciPy · Pandas · Matplotlib |
-| [E-Commerce Analytics Dashboard](https://github.com/saanvireddy/ecommerce-analytics-dashboard) | Power BI dashboards analyzing $3.8M+ revenue, 500+ customers, 3,000+ orders — SQL queries for monthly trends, segmentation, and geographic performance | Python · SQL · Power BI · ETL |
+| [SaaS Customer Retention & Churn – A/B Testing](https://github.com/saanvireddy/saas-churn-ab-analysis) | Email retention A/B test (n=2,000) across 12 monthly cohorts — chi-square testing, RFM segmentation into four customer groups, logistic regression churn model (**p<0.05, AUC-ROC: 0.81**) | Python · Scikit-learn · SciPy · Pandas · RFM |
+| [E-Commerce Analytics Dashboard](https://github.com/saanvireddy/ecommerce-analytics-dashboard) | Power BI dashboards analyzing **$3.8M+ revenue** across 500+ customers and 3,000+ orders — SQL queries for monthly trends, segmentation, and geographic performance, **99% data quality** | Python · SQL · Power BI · ETL |
+| [Entertainer Data Analytics](https://github.com/saanvireddy/Entertainer-Data-Analytics) | Analytics pipeline covering films, awards, salary, and trends for **70 entertainers** — interactive multi-page Power BI dashboard with dynamic filters for profiles, movie ratings, and award history | Python · Pandas · Power BI · Jupyter |
 
 ---
 
@@ -119,9 +124,10 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [Project Assistant Data Pipeline](https://github.com/saanvireddy/project-assistant-pipeline) | End-to-end AI-ready data pipeline: RapidFuzz-based country name → ISO code standardization (96% match rate against the full ISO 3166-1 reference list), U.S. Census ACS 5-Year API integration (FIPS-based, ZIP/county/state granularity), reusable schema validation/quality-check/feature-engineering modules, ChromaDB + Groq RAG retrieval layer, and automated CI/CD via GitHub Actions | Python · Pandas · RapidFuzz · ChromaDB · Groq · GitHub Actions · Pytest |
-| [E-Commerce Data Warehouse & ETL Pipeline](https://github.com/saanvireddy/e-commerce-data-warehouse) | Star schema dimensional warehouse, automated ETL (REST API + CSV → PostgreSQL), Great Expectations-style data quality checks, Airflow DAG orchestration, dbt models with full documentation | Python · PySpark · PostgreSQL · Airflow · dbt · Docker |
-| [Real-Time Log Stream Processing – Kafka & Spark](https://github.com/saanvireddy/kafka-spark-streaming) | Real-time pipeline consuming log events from Kafka, Spark Structured Streaming aggregations, windowed anomaly detection, Parquet output — fully containerized | Apache Kafka · Spark Streaming · Docker · Parquet |
+| [AI-Ready Real-Time Analytics Lakehouse](https://github.com/saanvireddy/ai-ready-lakehouse) | Real-time streaming pipeline — Kafka → Databricks PySpark Structured Streaming → Snowflake, clustered warehouse with materialized views, a tested 3-layer dbt model orchestrated by Airflow and gated by GitHub Actions CI/CD, plus a LangChain + Groq layer for natural-language questions against the live warehouse | Kafka · Databricks · Snowflake · dbt · Airflow · LangChain · Groq |
+| [Project Assistant Data Pipeline](https://github.com/saanvireddy/project-assistant-pipeline) | End-to-end AI-ready data pipeline: RapidFuzz-based country name → ISO code standardization (**~90% mismatch reduction** across 180+ variations), U.S. Census ACS 5-Year API integration (FIPS-based, ZIP/county/state granularity), reusable schema validation/quality-check modules, ChromaDB + Groq RAG retrieval layer, automated CI/CD via GitHub Actions | Python · Pandas · RapidFuzz · ChromaDB · Groq · GitHub Actions |
+| [E-Commerce Data Warehouse & ETL Pipeline](https://github.com/saanvireddy/e-commerce-data-warehouse) | Star schema dimensional warehouse, automated ETL (REST API + CSV → PostgreSQL) with validation, error handling and retries, Airflow DAG orchestration, dbt models with full documentation | Python · PySpark · PostgreSQL · Airflow · dbt · Docker |
+| [Real-Time Log Stream Processing – Kafka & Spark](https://github.com/saanvireddy/kafka-spark-streaming) | Real-time pipeline consuming log events from Kafka, Spark Structured Streaming with windowed aggregations and stateful transformations for anomaly detection, Parquet output — fully containerized with Docker Compose | Apache Kafka · Spark Streaming · Docker · Parquet |
 
 ---
 
@@ -129,17 +135,18 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 
 | Project | Description | Stack |
 |--------|-------------|-------|
-| [Personal Portfolio Website](https://saanvireddy.github.io/saanvi-portfolio/) | Responsive portfolio — live on GitHub Pages | HTML · CSS |
+| [Personal Portfolio Website](https://saanvireddy.github.io/saanvi-portfolio/) | Responsive portfolio site — live on GitHub Pages | HTML · CSS · JavaScript |
 
 ---
 
-## 📈 Experience Highlights
+## 📈 Experience
 
-| Role | Organization | Impact |
-|------|-------------|--------|
-| Project Assistant | University of South Florida | Built a full AI-ready data pipeline: RapidFuzz-based ETL standardizing 180+ country name variations (**~90% mismatch reduction**), U.S. Census ACS API integration (FIPS-based, ZIP/county/state granularity), reusable validation/QA/feature-engineering modules, ChromaDB + Groq RAG retrieval layer, and CI/CD automation via GitHub Actions |
-| Data Science Intern | Accenture | 15+ SQL reporting pipelines; 8+ Tableau/Power BI dashboards for C-level; **30% reduction** in manual reporting time |
-| Research Assistant | Malla Reddy Engineering College for Women | NLP pipeline on 500+ accident reports; 92% accuracy; peer-reviewed publication |
+| Role | Organization | Dates | Impact |
+|------|-------------|-------|--------|
+| AI & Data Analyst | Compass Group / University of South Florida | Jul 2026 – Present | Translate AI and data problem statements into technical requirements and evaluation criteria; prototype RAG-based workflows (chunking, embeddings, retrieval, generation) and design AI evaluation experiments on relevance, factual consistency, and retrieval quality |
+| Project Assistant | University of South Florida | Feb 2025 – May 2026 | Built a full AI-ready data pipeline: RapidFuzz-based ETL standardizing 180+ country name variations (**~90% mismatch reduction**), U.S. Census ACS API integration (FIPS-based), reusable validation/QA/feature-engineering modules, ChromaDB + Groq RAG retrieval layer; automated data-prep effort reduced by **~70%** |
+| Data Science Intern | Accenture | Jun 2023 – May 2024 | Built 15+ SQL reporting pipelines across 5+ analytics teams (**40% faster report generation**), 8+ Tableau/Power BI dashboards with DAX, optimized SQL on 1M+ row datasets (**40%+ faster execution**), automated data-quality frameworks (**~35% fewer pipeline failures**) |
+| Research Assistant | Malla Reddy Engineering College for Women | Jun 2021 – Jun 2023 | Built an end-to-end NLP pipeline on **18,617 OSHA Severe Injury Reports** (TF-IDF + spaCy NER); best model (SVM) reached **96% accuracy, 0.9867 AUC-ROC**; integrated Gemini to generate OSHA-referenced safety recommendations |
 
 ---
 
@@ -147,17 +154,17 @@ I'm a Master's graduate in AI & Business Analytics from USF (May 2026), building
 
 **MS Artificial Intelligence & Business Analytics** — University of South Florida *(Aug 2024 – May 2026)* · GPA: **3.95 / 4.0**
 
-**B.Tech Computer Science Engineering – Data Science** — Malla Reddy Engineering College for Women*(Jun 2020 – Apr 2024)* · GPA: **3.7 / 4.0**
+**B.Tech Computer Science Engineering – Data Science** — Malla Reddy Engineering College for Women *(Jun 2020 – Apr 2024)* · GPA: **3.7 / 4.0**
 
 ---
 
 ## 📜 Certifications
 
-- 🏅 Microsoft Power BI Data Analyst (PL-300) — Microsoft  
-- 🏅 Data Science Fundamentals with Python and SQL — IBM  
-- 🏅 Introduction to Data Science — IBM  
-- 🏅 Programming Essentials in Python — Cisco (OpenEDG)  
-- 🏅 Python (Basic) — HackerRank  
+- 🏅 Microsoft Power BI Data Analyst (PL-300) — Microsoft
+- 🏅 Data Science Fundamentals with Python and SQL — IBM
+- 🏅 Introduction to Data Science — IBM
+- 🏅 Programming Essentials in Python — Cisco (OpenEDG)
+- 🏅 Python (Basic) — HackerRank
 
 ---
 
