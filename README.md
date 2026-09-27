@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Saanvi Reddy Baradi 👋</h1>
 
 <p align="center">
-  <b>AI Engineer &nbsp;·&nbsp; GenAI Engineer &nbsp;·&nbsp; Data Scientist &nbsp;·&nbsp; Data Engineer</b><br/>
+  <b>AI Engineer &nbsp;·&nbsp; GenAI Engineer &nbsp;·&nbsp; LLM Engineer</b><br/>
   MS Artificial Intelligence & Business Analytics @ University of South Florida &nbsp;|&nbsp; GPA: 3.95 / 4.0<br/>
   📍 Tampa, FL &nbsp;|&nbsp; 🟢 Open to Work
 </p>
