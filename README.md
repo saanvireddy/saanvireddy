@@ -2,8 +2,8 @@
 
 <p align="center">
   <b>AI Engineer &nbsp;·&nbsp; GenAI Engineer &nbsp;·&nbsp; LLM Engineer</b><br/>
-  MS Artificial Intelligence & Business Analytics @ University of South Florida &nbsp;|&nbsp; GPA: 3.95 / 4.0<br/>
-  📍 Tampa, FL &nbsp;|&nbsp; 🟢 Open to Work
+  Master of Science, Artificial Intelligence and Business Analytics @ University of South Florida<br/>
+  📍 United States &nbsp;|&nbsp; 🟢 Open to Work
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/Portfolio-7c3aed?style=flat&logo=googlechrome&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:baradisaanvireddy2003@gmail.com">
+  <a href="mailto:saanvireddybaradi03@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" />
   </a>
 </p>
@@ -24,132 +24,89 @@
 
 ## 🙋‍♀️ About Me
 
-I'm a Master's graduate in **Artificial Intelligence & Business Analytics** from the **University of South Florida (May 2026)**, focused on building practical AI/ML solutions, intelligent data applications, and scalable data workflows.
+AI Engineer with **4 years of Python engineering experience across healthcare, payments, and banking**, now building production Generative AI applications. I build RAG pipelines and agentic workflows with **LangChain, LangGraph, FastAPI, Azure OpenAI, and Azure AI Search**, with a focus on retrieval quality, LLM evaluation (LangSmith, Ragas), and guardrails for sensitive data (PII). I bring a backend foundation from healthcare data, payments, and banking roles: REST APIs, SQL and PostgreSQL, data pipelines, testing, and CI/CD.
 
-My experience spans **Generative AI, LLMs, RAG, agentic systems, NLP, machine learning, data engineering, ETL, SQL analytics, and business intelligence**, with hands-on work across the data lifecycle — from data ingestion and preparation to modeling, AI evaluation, and stakeholder-facing applications.
-
-* 💼 **Currently:** AI & Data Analyst at Compass Group / University of South Florida, working with stakeholders on AI and data problem statements, analytical workflows, and AI evaluation
-* 🔭 **Building:** Production-oriented agentic AI platforms, RAG applications, LLM fine-tuning workflows, AI-powered SQL systems, and AI-ready data pipelines
-* 🧠 **Focus:** GenAI · LLMs · RAG · Agentic AI · NLP · Machine Learning · Data Engineering · Analytics
-* 🛠️ **Core Stack:** Python · SQL · LangChain · LangGraph · QLoRA/PEFT · Vertex AI · Ollama · Pinecone · pgvector · FastAPI · Docker · Kubernetes · Terraform · Spark · Kafka · Databricks · Snowflake · Airflow · dbt
-* 💬 **Ask me about:** GenAI architecture, agentic AI systems, RAG pipelines, LLM fine-tuning, NLP, ML, ETL pipelines, SQL analytics, and AI evaluation
-* 🎯 **Target Roles:** AI Engineer · GenAI Engineer · LLM Engineer · Data Scientist · Data Engineer · Data Analyst
+* 💼 **Currently:** AI Engineer at Meta (Sep 2026 – Present)
+* 🔭 **Building:** RAG pipelines, agentic workflows, LLM evaluation, and fine-tuned LLM serving
+* 🧠 **Focus:** RAG · Agentic Workflows · Tool Calling · MCP · Prompt Engineering · Guardrails · LLM Evaluation
+* 🛠️ **Core Stack:** Python · SQL · LangChain · LangGraph · Azure OpenAI · Azure AI Search · FastAPI · PostgreSQL · Docker · Kubernetes · Azure DevOps
+* 🏢 **Domains:** Healthcare & Life Sciences (clinical data) · Banking & Financial Services · Payments
+* 🎯 **Target Roles:** AI Engineer · GenAI Engineer · LLM Engineer
 
 ---
 
 ## 🛠️ Tech Stack
 
-### 🤖 GenAI & LLMs
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
-![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat&logo=google-cloud&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat)
-![QLoRA/PEFT](https://img.shields.io/badge/QLoRA%2FPEFT-7C3AED?style=flat)
-![Unsloth](https://img.shields.io/badge/Unsloth-00C08B?style=flat)
-![RAG](https://img.shields.io/badge/RAG%20Pipelines-FF6F00?style=flat)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0EA5E9?style=flat)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6600?style=flat)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
-![Ragas](https://img.shields.io/badge/Ragas%20Eval-14B8A6?style=flat)
-
-### 🧠 Machine Learning & Data Science
+### 💻 Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat)
-![SHAP](https://img.shields.io/badge/SHAP-FF6B6B?style=flat)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white)
-
-### ⚙️ Data Engineering & Cloud
-
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat&logo=google-cloud&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+
+### 🤖 Generative AI
+
+![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+![Tool Calling](https://img.shields.io/badge/Tool%20Calling-6366F1?style=flat)
+![MCP](https://img.shields.io/badge/MCP-111827?style=flat)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0EA5E9?style=flat)
+![Guardrails](https://img.shields.io/badge/Guardrails-DC2626?style=flat)
+![Pydantic](https://img.shields.io/badge/Structured%20Outputs-Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+
+### 📏 LLM Platforms & Evaluation
+
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=flat)
+![Azure AI Search](https://img.shields.io/badge/Azure%20AI%20Search-0078D4?style=flat)
+![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat)
+![Ragas](https://img.shields.io/badge/Ragas-14B8A6?style=flat)
+
+### 🔎 Retrieval
+
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat)
+![Hybrid Search](https://img.shields.io/badge/Hybrid%20Search-7C3AED?style=flat)
+![Reranking](https://img.shields.io/badge/Reranking-7C3AED?style=flat)
+
+### 🎛️ Fine-Tuning (project use)
+
+![QLoRA/LoRA](https://img.shields.io/badge/QLoRA%20%2F%20LoRA-7C3AED?style=flat)
+![PEFT](https://img.shields.io/badge/PEFT-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![Unsloth](https://img.shields.io/badge/Unsloth-00C08B?style=flat)
+
+### ⚙️ Backend & Data
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Django REST](https://img.shields.io/badge/Django%20REST-092E20?style=flat&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![ETL](https://img.shields.io/badge/ETL%20Pipelines-6DB33F?style=flat)
+
+### ☁️ Cloud & DevOps
+
+![Azure](https://img.shields.io/badge/Azure%20(AKS%2C%20Blob%20Storage%2C%20Azure%20DevOps)-0078D4?style=flat)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat)
+![GCP](https://img.shields.io/badge/GCP%20(Vertex%20AI%2C%20Cloud%20Run)-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20API%20Integration-6DB33F?style=flat)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-
-### 📡 Observability
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-4B5563?style=flat)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
+![EKS](https://img.shields.io/badge/EKS%20(project%20use)-232F3E?style=flat)
+![Helm](https://img.shields.io/badge/Helm%20(project%20use)-0F1689?style=flat&logo=helm&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform%20(project%20use)-7B42BC?style=flat&logo=terraform&logoColor=white)
 
-### 📊 BI & Visualization
+### 🧪 Testing & Tools
 
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-
----
-
-## 🚀 Projects
-
-### 🤖 AI / GenAI
-
-| Project | Description | Stack |
-| --- | --- | --- |
-| [Production-Oriented Agentic AI Platform](https://github.com/saanvireddy/production-agentic-ai) | Production-style agentic AI assistant with a LangGraph hybrid router answering over both unstructured policy documents (RAG with pgvector, page-level citations) and structured HR data (text-to-SQL with AST-level guardrails and read-only enforcement), backed by a local Ollama LLM, Redis-based memory/caching, and JWT-authenticated FastAPI endpoints. Reached **100% hit-rate/recall@4** on retrieval and **70% text-to-SQL execution accuracy**, with a comprehensive Ragas + SQL evaluation framework, GitHub Actions CI/CD evaluation gates, Docker/Kubernetes (Helm + EKS overlay) deployment, Terraform IaC, and Prometheus/Grafana/OpenTelemetry observability — running entirely locally for **$0** | LangGraph · FastAPI · pgvector · Ollama · Redis · Kubernetes · Helm · Terraform · Prometheus · Grafana |
-| [Multi-Cloud Fine-Tuned LLM Serving Pipeline](https://github.com/saanvireddy/llm-pipeline) | Fine-tuned Mistral-7B with QLoRA using 4-bit LoRA adapters via Unsloth on a 24K-example support dataset (**training loss 0.79 → 0.63**), combined with a Pinecone-backed RAG layer. Integrated Ragas evaluation into GitHub Actions CI/CD, with a containerized FastAPI serving application, Helm charts, and Terraform infrastructure validated for AWS EKS and Azure AKS | QLoRA/PEFT · Unsloth · Pinecone · Ragas · FastAPI · Docker · Kubernetes · Terraform · GitHub Actions |
-| [AI-Powered SQL Analytics Assistant](https://github.com/saanvireddy/ai-sql-assistant) | Agentic NL-to-SQL application built with a LangGraph ReAct workflow for query generation, validation, execution, and explanation, with schema-aware prompting, SQL guardrails, and conversational memory — **95%+ SQL accuracy** — [🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/ai-sql-assistant) | LangGraph · Groq · Streamlit · Python · SQL |
-| [RAG Document Q&A API Service](https://github.com/saanvireddy/rag-qa-api) | Production-style RAG service supporting PDF/text ingestion, Vertex AI embeddings, pgvector storage, FastAPI endpoints, Pydantic validation, rate limiting, and Cloud Logging — **<100ms latency** with ROUGE-based evaluation — [🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/rag-qa-assistant) | LangChain · FastAPI · PostgreSQL (pgvector) · Vertex AI · Pytest |
-
----
-
-### 🧠 Machine Learning & NLP
-
-| Project | Description | Stack |
-| --- | --- | --- |
-| [Credit Card Fraud Detection](https://github.com/saanvireddy/credit-card-fraud-detection) | End-to-end ML pipeline on 284,807 transactions using SMOTE for severe class imbalance. Improved fraud recall from 0.61 → **0.89** using XGBoost, achieving **0.99 AUC-ROC and 0.89 F1**, with SHAP explainability and a Streamlit scoring application | XGBoost · SMOTE · SHAP · Scikit-learn · Streamlit |
-| [Construction Safety Analytics – NLP](https://github.com/saanvireddy/Construction-site-accident-analysis) | NLP pipeline analyzing **18,617 OSHA accident reports** using TF-IDF, spaCy NER, and multiple classification models with SMOTE. Best SVM model achieved **96% accuracy and 0.9867 AUC-ROC**, with an interactive Streamlit dashboard and Docker deployment | Python · NLTK · spaCy · Scikit-learn · TF-IDF · Gemini · Docker · Streamlit |
-| [Heart Disease Diagnostic Analysis](https://github.com/saanvireddy/Heart-Disease-Diagnostic-Analysis) | Multi-disease ML classification covering diabetes, heart disease, and Parkinson's disease, including EDA, feature engineering, cross-validation, model evaluation, and Power BI visualization | Python · Scikit-learn · Jupyter · Power BI |
-
----
-
-### 📊 Data Analytics & BI
-
-| Project | Description | Stack |
-| --- | --- | --- |
-| [SaaS Customer Retention & Churn – A/B Testing](https://github.com/saanvireddy/saas-churn-ab-analysis) | Email retention A/B test across **2,000 observations and 12 monthly cohorts**, combining chi-square testing, RFM segmentation, and logistic regression churn modeling (**AUC-ROC: 0.81**) | Python · Scikit-learn · SciPy · Pandas · RFM |
-| [E-Commerce Analytics Dashboard](https://github.com/saanvireddy/ecommerce-analytics-dashboard) | Power BI analytics solution analyzing **$3.8M+ revenue**, 500+ customers, and 3,000+ orders, with SQL-based monthly trends, segmentation, geographic analysis, and **99% data quality** | Python · SQL · Power BI · ETL |
-| [Entertainer Data Analytics](https://github.com/saanvireddy/Entertainer-Data-Analytics) | Analytics pipeline covering films, awards, salary, and trends for **70 entertainers**, presented through an interactive multi-page Power BI dashboard | Python · Pandas · Power BI · Jupyter |
-
----
-
-### ⚙️ Data Engineering
-
-| Project | Description | Stack |
-| --- | --- | --- |
-| [AI-Ready Real-Time Analytics Lakehouse](https://github.com/saanvireddy/ai-ready-lakehouse) | Real-time streaming architecture using Kafka → Databricks PySpark Structured Streaming → Snowflake, with clustered warehouses, materialized views, dbt transformations, Airflow orchestration, GitHub Actions CI/CD, and a LangChain + Groq layer for natural-language analytics | Kafka · Databricks · Snowflake · dbt · Airflow · LangChain · Groq |
-| [Project Assistant Data Pipeline](https://github.com/saanvireddy/project-assistant-pipeline) | End-to-end AI-ready data pipeline using RapidFuzz to standardize **180+ country-name variations**, reducing mismatches by **~90%**, with U.S. Census ACS API integration, reusable validation modules, ChromaDB + Groq retrieval, and GitHub Actions CI/CD | Python · Pandas · RapidFuzz · ChromaDB · Groq · GitHub Actions |
-| [E-Commerce Data Warehouse & ETL Pipeline](https://github.com/saanvireddy/e-commerce-data-warehouse) | Dimensional data warehouse with automated REST API + CSV ingestion into PostgreSQL, validation, error handling, retries, Airflow orchestration, and documented dbt models | Python · PySpark · PostgreSQL · Airflow · dbt · Docker |
-| [Real-Time Log Stream Processing – Kafka & Spark](https://github.com/saanvireddy/kafka-spark-streaming) | Real-time log processing pipeline using Kafka and Spark Structured Streaming with windowed aggregations, stateful transformations, anomaly detection, and Parquet output | Apache Kafka · Spark Streaming · Docker · Parquet |
-
----
-
-### 🌐 Portfolio
-
-| Project | Description | Stack |
-| --- | --- | --- |
-| [Personal Portfolio Website](https://saanvireddy.github.io/saanvi-portfolio/) | Responsive personal portfolio showcasing AI, GenAI, machine learning, data engineering, and analytics projects | HTML · CSS · JavaScript |
+![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat&logo=pytest&logoColor=white)
+![unittest](https://img.shields.io/badge/unittest-3776AB?style=flat&logo=python&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ---
 
@@ -157,30 +114,27 @@ My experience spans **Generative AI, LLMs, RAG, agentic systems, NLP, machine le
 
 | Role | Organization | Dates | Impact |
 | --- | --- | --- | --- |
-| **AI & Data Analyst** | **Compass Group / University of South Florida** | **Jan 2026 – Present** | Work with business and research stakeholders to understand AI and data problem statements, translate requirements into analytical tasks and evaluation criteria, perform data preparation and analysis using Python/SQL, and prototype RAG and agentic workflows for grounded information retrieval and AI evaluation |
-| **Project Assistant** | **University of South Florida** | **Feb 2025 – Sep 2025** | Built an AI-ready data pipeline using RapidFuzz to standardize **180+ country-name variations**, reducing mismatches by **~90%**; integrated U.S. Census ACS APIs, reusable validation modules, and a ChromaDB + Groq retrieval layer, reducing manual data-preparation effort by **~70%** |
-| **Data Science Intern** | **Accenture** | **Jun 2023 – May 2024** | Built **15+ SQL reporting pipelines** across 5+ analytics teams, improving report generation speed by **40%**; developed 8+ Tableau/Power BI dashboards, optimized SQL across 1M+ row datasets, and implemented data-quality automation that reduced pipeline failures by **~35%** |
-| **Research Assistant** | **Malla Reddy Engineering College for Women** | **Jun 2021 – Jun 2023** | Conducted research across machine learning, NLP, data preparation, and model evaluation; developed an NLP pipeline on **18,617 OSHA Severe Injury Reports** using TF-IDF and spaCy NER, with the best SVM model achieving **96% accuracy and 0.9867 AUC-ROC** |
+| **AI Engineer** | **Meta**, USA | **Sep 2026 – Present** | • Develop FastAPI services for internal knowledge retrieval that return schema-checked, Pydantic-validated LLM outputs to downstream consumers.<br>• Tune chunking, embedding models, and FAISS index settings in LangChain to improve retrieval precision and cut irrelevant context passed to the LLM.<br>• Package retrieval, LLM calls, and output validation into reusable LangGraph components shared across the team’s workflows.<br>• Add automated grounding, relevance, and consistency checks to PyTest so prompt and model changes are regression-tested before merge.<br>• Triage API and retrieval defects and review pull requests on the team’s shared codebase. |
+| **AI Engineer** | **Truist Bank**, Tampa, FL | **Oct 2025 – Jul 2026** | • Built a multi-agent assistant on LangGraph, FastAPI, and Azure OpenAI that routes customer servicing, compliance, and operations queries to specialized agents for account services, transaction research, and banking products, cutting manual research time for operations users by about **20%**.<br>• Developed RAG pipelines over internal financial documents in Azure Blob Storage, with Airflow-scheduled ingestion, chunking, Azure AI Search hybrid search, and reranking; improved retrieval relevance by about **12%** on Ragas test sets.<br>• Built LangGraph agent workflows with intent classification, controlled tool calling, and retrieval for multi-step queries; contributed to MCP integrations exposing approved read-only tools with RBAC-scoped access and audit logging.<br>• Implemented LLM evaluation with LangSmith and Ragas on curated banking test sets to track faithfulness and relevance across releases, and added PII redaction and guardrails to block unsupported responses.<br>• Instrumented LLM latency, token usage, and retrieval failures with LangSmith and OpenTelemetry to pinpoint slow chains and failed retrievals before release.<br>• Wrote PyTest suites, Dockerized services, and deployed them to Azure Kubernetes Service (AKS) through Azure DevOps CI/CD pipelines; took part in code reviews and sprint planning. |
+| **Project Assistant** | **University of South Florida**, Tampa, FL | **Feb 2025 – Sep 2025** | • Built a Python ETL pipeline that standardized 180+ country-name variants to ISO codes using RapidFuzz and custom override rules, cutting mismatch errors by **90%**.<br>• Automated ingestion, preprocessing, schema validation, and metadata generation for research datasets, reducing manual data preparation effort by **70%**.<br>• Integrated the U.S. Census ACS 5-Year API with FIPS logic to pull demographic and income data by region.<br>• Kept pipelines in Git with CI checks and wrote usage notes so others on the project could rerun them. |
+| **Software Engineer, Python Backend** | **PayPal**, Bengaluru, India | **Jul 2023 – Jul 2024** | • Developed Python backend services and FastAPI REST APIs for internal payment operations and reporting.<br>• Wrote and optimized PostgreSQL queries for transaction lookup, reconciliation, and internal reporting workflows.<br>• Built reusable modules for transaction processing, business-rule validation, and structured logging.<br>• Wrote unit and integration tests with PyTest covering API responses, transaction logic, and failure scenarios.<br>• Supported AWS deployments through log analysis, configuration updates, and production troubleshooting.<br>• Wrote API documentation and worked through defects in sprint planning and code reviews. |
+| **Python Developer** | **IQVIA**, Pune, India | **Sep 2021 – Jun 2023** | • Developed Django REST API endpoints with request validation and database operations for healthcare applications.<br>• Wrote Python and Pandas scripts to clean and transform clinical trial data from CSV, Excel, and databases for reports.<br>• Wrote SQL queries and data validation checks to support reporting and verify the accuracy of healthcare datasets.<br>• Fixed assigned defects, wrote unit tests, and delivered small features with guidance from senior developers.<br>• Tested endpoints with Postman, maintained technical documentation, and helped with release verification. |
+
+---
+
+## 🚀 Projects
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Agentic AI Platform](https://github.com/saanvireddy/production-agentic-ai) | • Built a LangGraph assistant that routes queries between pgvector document RAG and a text-to-SQL path, returning cited answers with conversation context.<br>• Secured the SQL path with AST-based validation and read-only enforcement, plus JWT-authenticated FastAPI endpoints and Redis caching; reached **70% execution accuracy** on a text-to-SQL test set.<br>• Wrote PyTest cases for the routing and SQL-validation logic to catch regressions when changing prompts or models.<br>• Ran Ragas evaluations in GitHub Actions CI, packaged the stack with Docker, Helm, and Terraform, and added OpenTelemetry tracing. | Python · LangGraph · FastAPI · pgvector · Ollama · Redis · Ragas · Docker |
+| [Fine-Tuned LLM Serving Pipeline](https://github.com/saanvireddy/llm-pipeline) | • Fine-tuned Mistral-7B with 4-bit QLoRA and PEFT using Unsloth on a single T4 GPU.<br>• Cleaned and formatted the instruction dataset with Pandas, removing duplicate and malformed examples.<br>• Served it through a FastAPI RAG service with Pinecone retrieval, evaluated with Ragas and LLM-as-judge.<br>• Deployed the service to AWS EKS with Helm charts and Terraform, with GitHub Actions CI/CD for tests and builds. | Mistral-7B · QLoRA · PEFT · Unsloth · Pinecone · FastAPI |
+| [RAG Document Q&A API](https://github.com/saanvireddy/rag-qa-api) | • Built a PDF question-answering API using Vertex AI embeddings, pgvector similarity search, and Gemini answers with source references.<br>• Added ingestion, health-check, and latency-tracking endpoints, PyTest API tests, and Docker packaging; deployed on Google Cloud Run with a live Hugging Face Spaces demo. [🤗 Live Demo](https://huggingface.co/spaces/saanvireddy/rag-qa-assistant)<br>• Managed settings through environment variables and wrote a README with setup steps and example API calls. | LangChain · FastAPI · pgvector · Vertex AI · Gemini |
 
 ---
 
 ## 🎓 Education
 
-**MS Artificial Intelligence & Business Analytics** — University of South Florida
-*Aug 2024 – May 2026* · GPA: **3.95 / 4.0**
-
-**B.Tech Computer Science Engineering – Data Science** — Malla Reddy Engineering College for Women
-*Jun 2020 – Apr 2024* · GPA: **3.7 / 4.0**
-
----
-
-## 📜 Certifications
-
-* 🏅 Microsoft Power BI Data Analyst (PL-300) — Microsoft
-* 🏅 Data Science Fundamentals with Python and SQL — IBM
-* 🏅 Introduction to Data Science — IBM
-* 🏅 Programming Essentials in Python — Cisco (OpenEDG)
-* 🏅 Python (Basic) — HackerRank
+**Master of Science, Artificial Intelligence and Business Analytics** — University of South Florida, Tampa, FL
 
 ---
 
@@ -195,7 +149,7 @@ My experience spans **Generative AI, LLMs, RAG, agentic systems, NLP, machine le
     <img src="https://img.shields.io/badge/Portfolio-Visit-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   &nbsp;
-  <a href="mailto:baradisaanvireddy2003@gmail.com">
+  <a href="mailto:saanvireddybaradi03@gmail.com">
     <img src="https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
@@ -203,5 +157,5 @@ My experience spans **Generative AI, LLMs, RAG, agentic systems, NLP, machine le
 ---
 
 <p align="center">
-  <i>Open to full-time AI Engineer, GenAI Engineer, LLM Engineer, Data Scientist, and Data Engineer opportunities in the USA 🇺🇸</i>
+  <i>Open to full-time AI Engineer, GenAI Engineer, and LLM Engineer opportunities in the USA 🇺🇸</i>
 </p>
