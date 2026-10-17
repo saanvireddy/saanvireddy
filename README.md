@@ -20,7 +20,7 @@
   <a href="https://saanvireddy.github.io/saanvi-portfolio/">
     <img src="https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="mailto:saanvi9898@gmail.com">
+  <a href="mailto:saanvireddybaradi03@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
